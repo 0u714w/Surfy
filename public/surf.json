@@ -1,0 +1,70 @@
+{
+  "locations": [
+    {
+      "name": "Huntington Beach",
+      "coordinates": {
+        "lat": 33.6603,
+        "lng": -118.0112
+      },
+      "description": "A popular surfing destination known for its consistent waves."
+    },
+    {
+      "name": "Malibu",
+      "coordinates": {
+        "lat": 34.0259,
+        "lng": -118.7798
+      },
+      "description": "Famous for its beautiful beaches and challenging surf conditions."
+    },
+    {
+      "name": "Waikiki",
+      "coordinates": {
+        "lat": 21.2766,
+        "lng": -157.8281
+      },
+      "description": "A great spot for beginners with gentle waves."
+    }
+  ],
+  "difficultyLevels": [
+    {
+      "level": "Beginner",
+      "description": "Suitable for those new to surfing."
+    },
+    {
+      "level": "Intermediate",
+      "description": "For surfers with some experience."
+    },
+    {
+      "level": "Advanced",
+      "description": "Challenging conditions for experienced surfers."
+    }
+  ],
+  "waveTypes": [
+    {
+      "type": "Beach Break",
+      "description": "Waves that break over a sandy bottom."
+    },
+    {
+      "type": "Point Break",
+      "description": "Waves that break around a point of land."
+    },
+    {
+      "type": "Reef Break",
+      "description": "Waves that break over a coral reef."
+    }
+  ],
+  "equipmentTypes": [
+    {
+      "type": "Shortboard",
+      "description": "A small, maneuverable board for advanced surfers."
+    },
+    {
+      "type": "Longboard",
+      "description": "A longer board that is easier for beginners."
+    },
+    {
+      "type": "Fish",
+      "description": "A shorter, wider board for small waves."
+    }
+  ]
+}

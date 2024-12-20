@@ -1,0 +1,23 @@
+{
+  "name": "vue-surf-app",
+  "version": "1.0.0",
+  "description": "A Vue.js application for visualizing surf data.",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0",
+    "chart.js": "^3.0.0",
+    "vue-chartjs": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0",
+    "@babel/preset-env": "^7.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
