@@ -30,7 +30,7 @@ vue-surf-app
 1. **Clone the repository:**
    ```
    git clone <repository-url>
-   cd vue-surf-app
+   cd Surfy
    ```
 
 2. **Install dependencies:**
