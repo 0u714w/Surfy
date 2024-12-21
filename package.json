@@ -1,5 +1,5 @@
 {
-  "name": "vue-surf-app",
+  "name": "surfy",
   "version": "1.0.0",
   "description": "A Vue.js application for visualizing surf data.",
   "main": "src/main.js",
