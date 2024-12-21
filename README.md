@@ -1,5 +1,7 @@
 # Surfy 
 
+https://0u714w.github.io/Surfy/
+
 ## Overview
 Surfy is a data visualization application that displays information related to surfing locations, difficulty levels, wave types, and equipment types. It utilizes Vue.js for the frontend and fetches data from a JSON file.
 
