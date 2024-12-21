@@ -1,13 +1,11 @@
 <template>
   <div id="location-list">
     <h2>Surf Locations</h2>
-    <ul>
-      <li v-for="location in locations" :key="location.name">
-        <strong>{{ location.name }}</strong>: {{ location.description }}
-        <br>
-        Coordinates: ({{ location.coordinates.lat }}, {{ location.coordinates.lng }})
-      </li>
-    </ul>
+    <div v-if="currentLocation">
+      <strong>{{ currentLocation.name }}</strong>: {{ currentLocation.description }}
+      <br>
+      Coordinates: ({{ currentLocation.coordinates.lat }}, {{ currentLocation.coordinates.lng }})
+    </div>
   </div>
 </template>
 
@@ -15,11 +13,17 @@
 export default {
   data() {
     return {
-      locations: []
+      locations: [],
+      currentLocationIndex: 0,
+      currentLocation: null,
+      intervalId: null
     };
   },
   mounted() {
     this.fetchLocations();
+  },
+  beforeDestroy() {
+    clearInterval(this.intervalId);
   },
   methods: {
     async fetchLocations() {
@@ -27,9 +31,17 @@ export default {
         const response = await fetch('/surf.json');
         const data = await response.json();
         this.locations = data.locations;
+        this.currentLocation = this.locations[this.currentLocationIndex];
+        this.startLocationLoop();
       } catch (error) {
         console.error('Error fetching locations:', error);
       }
+    },
+    startLocationLoop() {
+      this.intervalId = setInterval(() => {
+        this.currentLocationIndex = (this.currentLocationIndex + 1) % this.locations.length;
+        this.currentLocation = this.locations[this.currentLocationIndex];
+      }, 3000); // Change location every 3 seconds
     }
   }
 };
@@ -48,12 +60,7 @@ h2 {
   color: #008cba;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
+div {
   margin-bottom: 1rem;
 }
 </style>

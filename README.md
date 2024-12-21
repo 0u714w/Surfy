@@ -1,7 +1,7 @@
-# Vue Surf App
+# Surfy 
 
 ## Overview
-The Vue Surf App is a data visualization application that displays information related to surfing locations, difficulty levels, wave types, and equipment types. It utilizes Vue.js for the frontend and fetches data from a JSON file.
+Surfy is a data visualization application that displays information related to surfing locations, difficulty levels, wave types, and equipment types. It utilizes Vue.js for the frontend and fetches data from a JSON file.
 
 ## Project Structure
 ```

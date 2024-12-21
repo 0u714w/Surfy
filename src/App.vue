@@ -3,26 +3,27 @@
     <LocationList />
     <DifficultyLevels />
     <WaveTypes />
+    <EquipmentTypes />
   </div>
 </template>
 
 <script>
-import LocationMap from './components/LocationMap.vue';
+import LocationList from './components/LocationList.vue';
 import DifficultyLevels from './components/DifficultyLevels.vue';
 import WaveTypes from './components/WaveTypes.vue';
-import LocationList from './components/LocationList.vue';
+import EquipmentTypes from './components/EquipmentTypes.vue';
 
 export default {
   name: 'App',
   components: {
-    LocationMap,
+    LocationList,
     DifficultyLevels,
     WaveTypes,
-    LocationList
+    EquipmentTypes
   }
 };
 </script>
 
 <style>
-/* Add your CSS styles here */
+/* Add any global styles here */
 </style>

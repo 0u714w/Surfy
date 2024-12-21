@@ -23,6 +23,102 @@
         "lng": -157.8281
       },
       "description": "A great spot for beginners with gentle waves."
+    },
+    {
+      "name": "Bondi Beach",
+      "coordinates": {
+        "lat": -33.8908,
+        "lng": 151.2743
+      },
+      "description": "A famous beach in Sydney known for its great surf."
+    },
+    {
+      "name": "Pipeline",
+      "coordinates": {
+        "lat": 21.6644,
+        "lng": -158.0511
+      },
+      "description": "A legendary surf spot on the North Shore of Oahu."
+    },
+    {
+      "name": "Jeffreys Bay",
+      "coordinates": {
+        "lat": -34.0505,
+        "lng": 24.9336
+      },
+      "description": "A world-renowned surf spot in South Africa."
+    },
+    {
+      "name": "Teahupo'o",
+      "coordinates": {
+        "lat": -17.8333,
+        "lng": -149.2667
+      },
+      "description": "Known for its heavy, glassy waves, located in Tahiti."
+    },
+    {
+      "name": "Mavericks",
+      "coordinates": {
+        "lat": 37.4919,
+        "lng": -122.4961
+      },
+      "description": "A famous big wave surf spot in Northern California."
+    },
+    {
+      "name": "Uluwatu",
+      "coordinates": {
+        "lat": -8.8185,
+        "lng": 115.0886
+      },
+      "description": "A popular surf destination in Bali, Indonesia."
+    },
+    {
+      "name": "Trestles",
+      "coordinates": {
+        "lat": 33.3841,
+        "lng": -117.5965
+      },
+      "description": "A premier surf spot in Southern California."
+    },
+    {
+      "name": "Hossegor",
+      "coordinates": {
+        "lat": 43.6656,
+        "lng": -1.4275
+      },
+      "description": "A famous surf spot in France known for its powerful waves."
+    },
+    {
+      "name": "Rincon",
+      "coordinates": {
+        "lat": 34.3958,
+        "lng": -119.5185
+      },
+      "description": "A classic point break in California."
+    },
+    {
+      "name": "Snapper Rocks",
+      "coordinates": {
+        "lat": -28.1678,
+        "lng": 153.5463
+      },
+      "description": "A world-class surf spot on the Gold Coast of Australia."
+    },
+    {
+      "name": "Supertubos",
+      "coordinates": {
+        "lat": 39.3558,
+        "lng": -9.3817
+      },
+      "description": "A famous surf spot in Portugal known for its powerful barrels."
+    },
+    {
+      "name": "Jaws",
+      "coordinates": {
+        "lat": 20.9425,
+        "lng": -156.3033
+      },
+      "description": "A legendary big wave surf spot in Maui, Hawaii."
     }
   ],
   "difficultyLevels": [
@@ -36,7 +132,11 @@
     },
     {
       "level": "Advanced",
-      "description": "Challenging conditions for experienced surfers."
+      "description": "For experienced surfers."
+    },
+    {
+      "level": "Expert",
+      "description": "For highly skilled surfers."
     }
   ],
   "waveTypes": [
@@ -46,11 +146,15 @@
     },
     {
       "type": "Point Break",
-      "description": "Waves that break around a point of land."
+      "description": "Waves that break over a rocky point."
     },
     {
       "type": "Reef Break",
       "description": "Waves that break over a coral reef."
+    },
+    {
+      "type": "River Mouth",
+      "description": "Waves that break at the mouth of a river."
     }
   ],
   "equipmentTypes": [
