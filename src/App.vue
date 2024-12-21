@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>Surf Data Visualization</h1>
     <LocationList />
     <DifficultyLevels />
     <WaveTypes />
