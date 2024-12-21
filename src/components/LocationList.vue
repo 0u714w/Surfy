@@ -36,12 +36,24 @@ export default {
 </script>
 
 <style scoped>
-/* Add your styles here */
-</style>
-
-{
-  "compilerOptions": {
-    "target": "es2017",
-    "module": "es2022",
-  }
+#location-list {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
+
+h2 {
+  color: #008cba;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+</style>

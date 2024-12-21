@@ -12,8 +12,9 @@ vue-surf-app
 ├── src
 │   ├── assets              # Static assets (images, stylesheets)
 │   ├── components          # Vue components for different visualizations
-│   │   ├── LocationMap.vue # Component for displaying surfing locations
-│   │   ├── DifficultyLevels.vue # Component for visualizing difficulty levels
+│   │   ├── LocationList.vue # Component for displaying surfing locations
+│   │   ├── DifficultyLevels.vue # Component for visualizing difficulty
+ levels
 │   │   └── WaveTypes.vue   # Component for displaying wave types
 │   ├── App.vue             # Root component of the Vue application
 │   ├── main.js             # Entry point of the Vue application
