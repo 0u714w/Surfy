@@ -26,7 +26,7 @@ export default {
   methods: {
     async fetchWaveTypes() {
       try {
-        const response = await fetch('/surf.json');
+        const response = await fetch('/Surfy/surf.json');
         const data = await response.json();
         this.waveTypes = data.waveTypes;
         this.currentWaveType = this.waveTypes[this.currentWaveTypeIndex];

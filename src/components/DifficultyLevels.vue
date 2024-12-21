@@ -26,7 +26,7 @@ export default {
   methods: {
     async fetchDifficultyLevels() {
       try {
-        const response = await fetch('/surf.json');
+        const response = await fetch('/Surfy/surf.json');
         const data = await response.json();
         this.difficultyLevels = data.difficultyLevels;
         this.currentDifficulty = this.difficultyLevels[this.currentDifficultyIndex];

@@ -28,7 +28,7 @@ export default {
   methods: {
     async fetchLocations() {
       try {
-        const response = await fetch('/surf.json');
+        const response = await fetch('/Surfy/surf.json');
         const data = await response.json();
         this.locations = data.locations;
         this.currentLocation = this.locations[this.currentLocationIndex];

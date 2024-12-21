@@ -6,17 +6,19 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service build && gh-pages -d dist"
   },
   "dependencies": {
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0",
     "chart.js": "^3.0.0",
-    "vue-chartjs": "^4.0.0"
+    "vue": "^3.0.0",
+    "vue-chartjs": "^4.0.0",
+    "vue-router": "^4.0.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.0.0",
     "@vue/cli-service": "^4.5.0",
-    "@babel/preset-env": "^7.0.0"
+    "gh-pages": "^6.2.0"
   },
   "author": "",
   "license": "MIT"

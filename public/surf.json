@@ -160,15 +160,19 @@
   "equipmentTypes": [
     {
       "type": "Shortboard",
-      "description": "A small, maneuverable board for advanced surfers."
+      "description": "A versatile board for all types of waves."
     },
     {
       "type": "Longboard",
-      "description": "A longer board that is easier for beginners."
+      "description": "A longer board for smaller, slower waves."
     },
     {
       "type": "Fish",
-      "description": "A shorter, wider board for small waves."
+      "description": "A shorter, wider board for smaller waves."
+    },
+    {
+      "type": "Gun",
+      "description": "A longer board for big wave surfing."
     }
   ]
 }
