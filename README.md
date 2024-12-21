@@ -9,7 +9,7 @@ Surfy is a data visualization application that displays information related to s
 
 ## Project Structure
 ```
-vue-surf-app
+Surfy
 ├── public
 │   ├── index.html          # Main HTML structure of the application
 │   └── surf.json          # JSON data for surfing information
