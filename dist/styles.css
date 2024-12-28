@@ -1,21 +1,44 @@
+*/styles.css */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    background: url('/home/doug/Surfy/public/dystopbeach.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
 }
 
 header {
-  background-color: #008cba;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
 }
 
 h1 {
-  margin: 0;
+    font-size: 3em;
+    margin: 0;
 }
 
-#app {
-  padding: 2rem;
+.wave {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('/home/doug/Surfy/public/stylized_wave_animation.jpg') repeat-x;
+    animation: wave-animation 10s linear infinite;
+}
+
+@keyframes wave-animation {
+    from { background-position-x: 0; }
+    to { background-position-x: 1000px; }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: url('/home/doug/Surfy/public/noun-surfboard-1674969.png') no-repeat left center;
+    padding-left: 40px;
+    margin: 10px 0;
 }
